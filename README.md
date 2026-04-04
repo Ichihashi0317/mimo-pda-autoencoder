@@ -59,8 +59,6 @@ pip install numpy torch matplotlib
 
 ## 設定パラメータ (`SIM`)
 
-<details><summary>表示</summary>
-
 ### 学習 / テスト 共通設定
 
 | パラメータ名 | 意味 |
@@ -116,8 +114,6 @@ pip install numpy torch matplotlib
 - 早期終了させない場合は `SE_max=float('inf')` に設定すること
 - シンボルエラー数が `SE_max` に達するまで計算を継続する場合は `nloop_max=float('inf')` に設定すること
 - `nloop_max` と `SE_max` の両方を `float('inf')` に設定すると計算が終了しないため、どちらかは有限値に設定すること
-
-</details>
 
 </details>
 
